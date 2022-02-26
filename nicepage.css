@@ -36445,3 +36445,26 @@ a.u-link.u-text-hover-grey-90:hover {
 :root {
   --red:#ff3838;
 }
+@media (max-width: 768px) {
+  .videos{
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .videos{
+    flex-direction: column;
+  }
+}
+@media (min-width: 600px) {
+  .videos{
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .videos{
+    flex-direction: column;
+  }
+}
+
+
+
